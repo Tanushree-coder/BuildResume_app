@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BuildResume</string>
+
+    <string name="text1">When describing yourself on a job application, persuade the employer that you are uniquely qualified for the job. Relate your skills back to the job description to show that you are well prepared to meet and exceed expectations.</string>
+    <string name="text2">The work experience section of your resume—the part where you describe your past jobs—is the most crucial component of your whole job application.</string>
+    <string name="job_name">Programmer &amp; Graphic Designer</string>
+    <string name="name">Chris Hemsworth </string>
+    <string name="work_experience">Work Experience</string>
+    <string name="skills">Skills</string>
+    <string name="skill_description">Communication skills.Computer skills.People skills.Leadership skills.Organizational skills.Time management skills.Collaboration skills.Problem-solving skills.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mark">mark</string>
+    <string name="professional_experience">Professional Experience</string>
+    <string name="our_team">Our Team</string>
+    <string name="user_icon">user icon</string>
+    <string name="author_name">Author Name</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="my_project_1">My project 1</string>
+    <string name="title_activity_bottom_nav">MainActivity</string>
+    <string name="menu_icon">menu icon</string>
+    <string name="menu_selected">menu selected</string>
+    <string name="profile_icon">profile icon</string>
+    <string name="app_icon">app icon</string>
+    <string name="your_name">Your Name</string>
+    <string name="education">Education</string>
+    <string name="senior_web_developer">Senior Web Developer</string>
+    <string name="save">SAVE</string>
+    <string name="create_pdf">Create Pdf</string>
+    <string name="testtext">TestText</string>
+    <string name="your_designation">Your Designation</string>
+    <string name="your_job_description">Your Job Description</string>
+    <string name="your_education_history">Your Education History</string>
+    <string name="your_skills">Your Skills</string>
+    <string name="your_professional_experience">Your Professional Experience</string>
+    <string name="projects">Projects</string>
+    <string name="address">Address</string>
+    <string name="Tanushree">Tanushree</string>
+    <string name="Tanudescription">"Hello, I am Tanushree and I have built this app for users like you who never wanna miss any opportunity coming on the way! If you like to contribute to this app, make sure you check out my GitHub Repository."</string>
+    <string name="social_handles">Social Handles</string>
+    <string name="author_description">Meet our Team who has built this app. Our app is an open source project and all sorts of improvements are welcomed.</string>
+    <string name="go_back">Go Back</string>
+    <string name="project_name">Project Name</string>
+    <string name="remove_item">remove_item</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="enter_title">Enter Title</string>
+</resources>
