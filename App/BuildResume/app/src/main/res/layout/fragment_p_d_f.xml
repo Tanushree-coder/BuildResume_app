@@ -37,7 +37,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="40dp"
         android:backgroundTint="@color/teal_200"
-        android:text="@string/create_pdf"
+        android:text="pdf format"
         android:textColor="@color/grey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
