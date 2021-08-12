@@ -1,6 +1,7 @@
 package com.example.buildresume.PDF;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,8 +17,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.buildresume.MainActivity;
 import com.example.buildresume.PDFActivity;
 import com.example.buildresume.R;
+import com.example.buildresume.home.HomeFragment;
 
 public class PDFFragment extends Fragment {
 
@@ -25,6 +28,7 @@ public class PDFFragment extends Fragment {
     public static final String TAG = "TAGPDFFragment";
     private EditText myEditText;
     Button button;
+    Button exitbtn;
 
     public PDFFragment() {
     }
@@ -47,6 +51,7 @@ public class PDFFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_p_d_f, container, false);
         button=view.findViewById(R.id.pdfcreator);
+        exitbtn=view.findViewById(R.id.exit);
         Log.i(TAG, "onCreateView: ");
         button.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -60,6 +65,19 @@ public class PDFFragment extends Fragment {
                 ((Activity) getActivity()).overridePendingTransition(0, 0);
             }
         });
+
+        exitbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                home();
+            }
+            private void home(){
+                Intent i = new Intent(getActivity(), MainActivity.class);
+                startActivity(i);
+
+            }
+        });
+
         return view;
     }
 

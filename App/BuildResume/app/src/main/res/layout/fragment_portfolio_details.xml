@@ -42,7 +42,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="24dp"
         android:lineSpacingExtra="8sp"
-        android:hint="@string/text2"
+        android:hint="@string/text0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

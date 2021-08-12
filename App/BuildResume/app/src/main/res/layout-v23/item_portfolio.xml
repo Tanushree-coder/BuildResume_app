@@ -16,6 +16,7 @@
         android:id="@+id/item_portfolio_img"
         android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:contentDescription="img" />
 
 </LinearLayout>

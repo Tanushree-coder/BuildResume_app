@@ -87,4 +87,22 @@ public class SharedPrefManager {
         return gson.fromJson(json,type);
     }
 
+
+    int i=1;
+
+    public void setProjects(String str){
+        sharedPreferences = context.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        editor = sharedPreferences.edit();
+        editor.putString(Integer.toString(i),str);
+        i++;
+        editor.apply();
+    }
+
+    public String getProjects()
+    {
+        sharedPreferences = context.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        return sharedPreferences.getString("BRIEF_INTRO",null);
+    }
+
+
 }

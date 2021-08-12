@@ -80,6 +80,11 @@ public class PortfolioFragment extends Fragment implements PortfolioCallback {
         mdata.add(new PortfolioItem(R.drawable.astro));
         mdata.add(new PortfolioItem(R.drawable.astro));
         mdata.add(new PortfolioItem(R.drawable.astro));
+        mdata.add(new PortfolioItem(R.drawable.astro));
+        mdata.add(new PortfolioItem(R.drawable.astro));
+        mdata.add(new PortfolioItem(R.drawable.astro));
+
+
 
         portfolioAdapter = new PortfolioAdapter(mdata, this);
         recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));

@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.webkit.MimeTypeMap;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.PopupMenu;
 
@@ -43,6 +44,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements ClickedCallback {
 
     ImageView imageView2;
+
 
     RecyclerView recyclerView;
     MenuAdapter menuAdapter;
@@ -78,6 +80,8 @@ public class MainActivity extends AppCompatActivity implements ClickedCallback {
                     .into(imageView2);
         }
     }
+
+
 
     private void setSideNavigation() {
         recyclerView = findViewById(R.id.recyclerview_nav);
