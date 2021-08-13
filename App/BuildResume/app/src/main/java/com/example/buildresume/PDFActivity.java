@@ -91,7 +91,7 @@ public class PDFActivity extends AppCompatActivity {
         paint.setTextAlign(Paint.Align.CENTER);
         paint.setTypeface(Typeface.create(Typeface.DEFAULT,Typeface.BOLD));
         paint.setTextSize(50f);
-        paint.setColor(Color.CYAN);
+        paint.setColor(Color.BLACK);
         canvas.drawText(sharedPrefManager.getHomeData().getName().toUpperCase(),myPageInfo.getPageWidth()>>1,80,paint);
 
 
